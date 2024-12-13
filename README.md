@@ -5,4 +5,5 @@ This research project explores the predictive effectiveness of neuroimaging biom
 ![bio](https://github.com/user-attachments/assets/8326a7da-25d2-4dd9-970c-55c4ccfc8a9f)
 
 ![image](https://github.com/user-attachments/assets/c0f99c44-4838-4d62-83ea-c804b9dfc1a7)
+
 **Prerequisites**

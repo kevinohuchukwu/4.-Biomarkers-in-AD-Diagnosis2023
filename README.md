@@ -30,3 +30,4 @@ The tool was developed using rhe following dependencies:
 *	keras provides deep learning layers like Dense and LSTM.
 *	xgboost is included for advanced tree-based models.
 
+Please note that the dependencies may require Python 3.6 or greater. It is recommended to install and maintain all packages using conda or pip.

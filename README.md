@@ -52,7 +52,7 @@ Key variables of interest include:
 *	Baseline-related measures.
   
 ### Preliminary Insights
-3.	Participants:
+#### Participants
 *	The dataset comprises 2,155 unique patients, each identified by 'PTID'.
 *	Among 26 visit codes, 'VISCODE' is primarily 'bl', reinforcing the emphasis on baseline data.
 #### 	ADNI-2 Trial Insights

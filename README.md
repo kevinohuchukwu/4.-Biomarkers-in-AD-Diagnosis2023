@@ -37,34 +37,37 @@ Please note that the dependencies may require Python 3.6 or greater. It is recom
 ## Understanding the data
 Understanding the data in this context involves the following key observations and insights:
 ### Segregation of Data
-1.	Baseline and Non-Baseline Data:
-*	The dataset is divided into two distinct classifications: 
-*	Baseline data: Includes 2,155 entries where the variable 'VISCODE' is 'bl'. This represents the initial condition of participants before any interventions or noticeable disease progression.
+### Baseline and Non-Baseline Data
+The dataset is divided into two distinct classifications: 
+*	Baseline data: Includes 2,155 entries where the variable 'VISCODE' is 'bl'. This represents the initial condition of participants before any interventions or noticeable disease 
+  progression.
 *	Non-baseline data: Contains 11,760 entries where 'VISCODE' is not 'bl', representing follow-up observations.
-*	The analysis prioritizes baseline data to focus on participants' initial states.
-2.	Variable Focus:
-*	Key variables of interest include: 
+The analysis prioritizes baseline data to focus on participants' initial states.
+
+### Variable Focus
+Key variables of interest include: 
 *	AGE
 *	PTGENDER
 *	APOE4
 *	Baseline-related measures.
+  
 ### Preliminary Insights
 3.	Participants:
 *	The dataset comprises 2,155 unique patients, each identified by 'PTID'.
 *	Among 26 visit codes, 'VISCODE' is primarily 'bl', reinforcing the emphasis on baseline data.
-#### 	ADNI-2 Trial Insights:
-*	The trial includes 710 participants and focuses on cognitive conditions at varying stages: 
-#####  SMC (Significant Memory Concern): 
+#### 	ADNI-2 Trial Insights
+*	The trial includes 710 participants and focuses on cognitive conditions at varying stages. 
+#####  SMC (Significant Memory Concern) 
 *	Participants self-reported memory issues but scored within a normal cognitive range (CDR = 0).
 *	These participants showed no persistent memory loss or forgetfulness.
-*	CN (Cognitively Normal): 
+*	CN (Cognitively Normal). 
 *	Participants with no significant cognitive impairment.
-*	MCI (Mild Cognitive Impairment): 
+*	MCI (Mild Cognitive Impairment).
 *	Further classified into early (EMCI) and late (LMCI) subtypes.
 *	Represents cognitive decline stages without severe memory loss.
   
 ## Purpose and Objectives
-### 	Research Goals:
+### 	Research Goals
 *	The focus is on identifying initial conditions and understanding the baseline characteristics of participants.
 *	The analysis aims to: 
     *	Address potential concerns or data gaps.

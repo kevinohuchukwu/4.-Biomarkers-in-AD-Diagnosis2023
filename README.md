@@ -60,9 +60,9 @@ Key variables of interest include:
 #####  SMC (Significant Memory Concern) 
 *	Participants self-reported memory issues but scored within a normal cognitive range (CDR = 0).
 *	These participants showed no persistent memory loss or forgetfulness.
-*	CN (Cognitively Normal). 
+##### CN (Cognitively Normal). 
 *	Participants with no significant cognitive impairment.
-*	MCI (Mild Cognitive Impairment).
+##### MCI (Mild Cognitive Impairment).
 *	Further classified into early (EMCI) and late (LMCI) subtypes.
 *	Represents cognitive decline stages without severe memory loss.
   

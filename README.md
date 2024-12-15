@@ -1,6 +1,7 @@
 # Investigating the Utility of Neuroimaging Biomarkers in Early Detection and Progression Monitoring of Alzheimer's Disease
 ## Introduction
-This research project explores the predictive effectiveness of neuroimaging biomarkers, combined with demographic ("Age" and "Sex") and genetic data, to enable early detection and progression monitoring of Alzheimer's Disease (AD). Using advanced machine learning techniques and neuroimaging data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), this study aims to build predictive models that enhance clinical outcomes.
+This research project explores the predictive effectiveness of neuroimaging biomarkers, combined with demographic ("Age" and "Sex") and genetic data, to enable early detection and progression monitoring of Alzheimer's Disease (AD). Using advanced machine learning techniques and neuroimaging data from the Alzheimer's Disease Neuroimaging Initiative (ADNI), this study aims to build predictive models that enhance clinical outcomes..
+
 ## Liat of Biomarkers
 ![bio](https://github.com/user-attachments/assets/8326a7da-25d2-4dd9-970c-55c4ccfc8a9f)
 
@@ -31,3 +32,50 @@ The tool was developed using rhe following dependencies:
 *	xgboost is included for advanced tree-based models.
 
 Please note that the dependencies may require Python 3.6 or greater. It is recommended to install and maintain all packages using conda or pip.
+
+
+## Understanding the data
+Understanding the data in this context involves the following key observations and insights:
+### Segregation of Data
+1.	Baseline and Non-Baseline Data:
+*	The dataset is divided into two distinct classifications: 
+*	Baseline data: Includes 2,155 entries where the variable 'VISCODE' is 'bl'. This represents the initial condition of participants before any interventions or noticeable disease progression.
+*	Non-baseline data: Contains 11,760 entries where 'VISCODE' is not 'bl', representing follow-up observations.
+*	The analysis prioritizes baseline data to focus on participants' initial states.
+2.	Variable Focus:
+*	Key variables of interest include: 
+*	AGE
+*	PTGENDER
+*	APOE4
+*	Baseline-related measures.
+### Preliminary Insights
+3.	Participants:
+*	The dataset comprises 2,155 unique patients, each identified by 'PTID'.
+*	Among 26 visit codes, 'VISCODE' is primarily 'bl', reinforcing the emphasis on baseline data.
+#### 	ADNI-2 Trial Insights:
+*	The trial includes 710 participants and focuses on cognitive conditions at varying stages: 
+#####  SMC (Significant Memory Concern): 
+*	Participants self-reported memory issues but scored within a normal cognitive range (CDR = 0).
+*	These participants showed no persistent memory loss or forgetfulness.
+*	CN (Cognitively Normal): 
+*	Participants with no significant cognitive impairment.
+*	MCI (Mild Cognitive Impairment): 
+*	Further classified into early (EMCI) and late (LMCI) subtypes.
+*	Represents cognitive decline stages without severe memory loss.
+  
+## Purpose and Objectives
+### 	Research Goals:
+*	The focus is on identifying initial conditions and understanding the baseline characteristics of participants.
+*	The analysis aims to: 
+    *	Address potential concerns or data gaps.
+    *	Generate preliminary insights.
+    *	Formulate hypotheses about the dataset to support predictive modeling.
+
+    
+6.	Data Selection and Quality:
+o	The study involves careful curation of variables relevant to research objectives, ensuring irrelevant columns are removed.
+o	Prioritized baseline data provides a foundation for evaluating participants' conditions at the study's onset.
+
+This dataset offers a rich source of information to analyze baseline cognitive states and demographic variables in participants of the ADNI-2 trial. By segregating the data into baseline and non-baseline classifications and focusing on relevant variables, the study can develop meaningful insights into early-stage cognitive conditions and factors influencing disease progression. This understanding lays the groundwork for hypotheses that explain observed patterns in the data.
+
+

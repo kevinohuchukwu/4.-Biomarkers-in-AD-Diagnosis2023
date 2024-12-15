@@ -22,7 +22,7 @@ The tool was developed using rhe following dependencies:
 *	keras: Deep learning framework (2.4.0 or greater).
 *	mpl_toolkits.mplot3d: 3D plotting toolkit for Matplotlib (bundled with Matplotlib).
 
-### Additional Notes:
+### Additional Notes
 *	scikit-learn is heavily used in the code for: 
 *	Classification (AdaBoostClassifier, DecisionTreeClassifier, Gradient Boosting, etc.).
 *	Preprocessing (LabelEncoder, OneHotEncoder, StandardScaler).
@@ -70,12 +70,11 @@ Understanding the data in this context involves the following key observations a
     *	Address potential concerns or data gaps.
     *	Generate preliminary insights.
     *	Formulate hypotheses about the dataset to support predictive modeling.
+   
+## Data Selection and Quality
+*	The study involves careful curation of variables relevant to research objectives, ensuring irrelevant columns are removed.
+*	Prioritized baseline data provides a foundation for evaluating participants' conditions at the study's onset. These insights will be integrated with neuroimaging and genetic data to 
+  train machine learning models for prediction and monitoring.
 
-    
-6.	Data Selection and Quality:
-o	The study involves careful curation of variables relevant to research objectives, ensuring irrelevant columns are removed.
-o	Prioritized baseline data provides a foundation for evaluating participants' conditions at the study's onset.
-
-This dataset offers a rich source of information to analyze baseline cognitive states and demographic variables in participants of the ADNI-2 trial. By segregating the data into baseline and non-baseline classifications and focusing on relevant variables, the study can develop meaningful insights into early-stage cognitive conditions and factors influencing disease progression. This understanding lays the groundwork for hypotheses that explain observed patterns in the data.
 
 

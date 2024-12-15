@@ -9,7 +9,7 @@ This research project explores the predictive effectiveness of neuroimaging biom
 
 ### Prerequisites
 
-The tool was developed using rhe following dependencies:
+The tool was developed using the following dependencies:
 *	pandas: Data manipulation and analysis (1.1.0 or greater).
 *	numpy: Numerical computing (1.19.0 or greater).
 *	matplotlib: Visualization (3.3.0 or greater).
